@@ -1,0 +1,14 @@
+{
+  "name": "vscode-semantic-coloring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "esbuild index.ts --bundle --outfile=dist/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.19.2"
+  }
+}
