@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+        "emitDeclarationOnly": true,
+        "composite": true,
+		"outDir": "./dist",
+        "lib": [
+            "ES2022",
+            "DOM",
+            "DOM.Iterable",
+            "WebWorker.ImportScripts"
+        ]
+	},
+	"include": [
+        "./index.ts",
+        "./vscode/src/bootstrap.js",
+        "./vscode/src/bootstrap-amd.js",
+        "./vscode/src/server-main.js",
+        "./vscode/src/typings",
+        "./vscode/src/vs/**/*.ts",
+        "./vscode/src/vscode-dts/vscode.proposed.*.d.ts",
+        "./vscode/src/vscode-dts/vscode.d.ts"
+    ]
+}

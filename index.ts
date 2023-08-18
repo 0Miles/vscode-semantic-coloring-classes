@@ -1,2 +1,1 @@
-import { SemanticTokensLegend, SemanticTokensBuilder, SemanticTokensEdit, SemanticTokensEdits } from './vscode/src/vs/workbench/api/common/extHostTypes'
-export { SemanticTokensLegend, SemanticTokensBuilder, SemanticTokensEdit, SemanticTokensEdits }
+export { SemanticTokensLegend, SemanticTokensBuilder, SemanticTokensEdit, SemanticTokensEdits } from './vscode/src/vs/workbench/api/common/extHostTypes'
