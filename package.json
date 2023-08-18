@@ -6,7 +6,9 @@
   "scripts": {
     "build": "esbuild index.ts --bundle --outfile=dist/index.js"
   },
-  "author": "",
+  "repository": {
+    "url": "https://github.com/0Miles/vscode-semantic-coloring.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "esbuild": "^0.19.2"
