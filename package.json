@@ -1,5 +1,5 @@
 {
-  "name": "vscode-semantic-coloring",
+  "name": "vscode-semantic-coloring-classes",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -7,7 +7,7 @@
     "build": "esbuild index.ts --bundle --outfile=dist/index.js"
   },
   "repository": {
-    "url": "https://github.com/0Miles/vscode-semantic-coloring.git"
+    "url": "https://github.com/0Miles/vscode-semantic-coloring-classes.git"
   },
   "license": "MIT",
   "devDependencies": {
